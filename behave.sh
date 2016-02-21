@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get install idle-python3
 if [ ! -d "pyEnvJenkins" ]; then
         virtualenv pyEnvJenkins
 fi
