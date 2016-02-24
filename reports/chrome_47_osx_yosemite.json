@@ -1,7 +1,7 @@
 [
   {
     "id": "Bridge-legal-requirements",
-    "name": "Bridge legal requirements",
+    "name": "Bridge - legal requirements - OSX-Chrome",
     "description": "As a Bridge user\nI want to be presented with information about my use of Bridge when I first access it\nso that I have appropriate expectations",
     "line": 2,
     "keyword": "Feature",

@@ -1,7 +1,7 @@
 [
   {
     "id": "Bridge-legal-requirements",
-    "name": "Bridge legal requirements",
+    "name": "BRIDGE : legal requirements ",
     "description": "As a Bridge user\nI want to be presented with information about my use of Bridge when I first access it\nso that I have appropriate expectations",
     "line": 2,
     "keyword": "Feature",
@@ -85,7 +85,7 @@
   },
   {
     "id": "Bridge-publish-workflow",
-    "name": "Bridge publish workflow",
+    "name": "BRIDGE : publish workflow",
     "description": "As a Study Builder user\nI want to publish my enhanced trial\nso that patients can see the enhanced information",
     "line": 2,
     "keyword": "Feature",
@@ -166,7 +166,7 @@
         ]
       },
       {
-        "name": "Publish changes after previewing",
+        "name": "BRIDGE : Publish changes after previewing",
         "id": "Bridge-publish-workflow;publish-changes-after-previewing",
         "line": 13,
         "keyword": "Scenario",
@@ -247,7 +247,7 @@
   },
   {
     "id": "Trial-search",
-    "name": "Trial search",
+    "name": "TRIAL : Patient search",
     "description": "As a potential trial participant\nI want to be asked questions and shown results based on what type of diabetes trials I have said I am interested in\nSo that the results are meaningful and useful to me\n\nThe scenario's expectations are based on the results given by the search_trials tool\n(see https://github.com/trialreach/augmented-triality/tree/master/scripts/search_trials).\nThe tool does NOT consider the complete annotation process so the provided list of trials has to be manually filtered\nbased on this list: https://github.com/trialreach/annotation-tool/blob/master/metadata/diagnostic-areas.csv\n\nExpectations are expressed using real data. This because at the moment QBMS is not configured to consume different\ndata at startup time. The downside of this approach is that these tests may fails with a release of QBMS that include\nnew data (trials annotations or trial sites locations).\nOnce QBMS will be able to consume fake trials location and annotations, it's strongly recommended to move to write\nexpectation against fixtures.\n\nThe search_trials tools requires the coordinates of the point to search from. Geolocation lookup has been done using\nthe same service used by MT (i.e. Google AutocompleteService). The quickest way to lookup a location coordinates is\nto type a location in MT and inspect the requests to QBMS RankMatches endpoint to spot the coordinates associated\nwith the provided location.",
     "line": 3,
     "keyword": "Feature",
@@ -372,7 +372,7 @@
         ]
       },
       {
-        "name": "Search diabetes trial given multiple patient conditions",
+        "name": "TRIAL : Search diabetes trial given multiple patient conditions",
         "id": "Trial-search;search-diabetes-trial-given-multiple-patient-conditions",
         "line": 35,
         "keyword": "Scenario",
@@ -494,7 +494,7 @@
   },
   {
     "id": "Distance-filter",
-    "name": "Distance filter",
+    "name": "TRIAL : Distance filter",
     "description": "As a potential trial participant\nI want to specify how far I am willing to travel to participate in a clinical trial\nSo that I see trials in my results that are logistically reasonable for me.",
     "line": 3,
     "keyword": "Feature",
@@ -895,7 +895,7 @@
     ]
   },
   {
-    "id": "Questions-order",
+    "id": "TRIAL : Questions-order",
     "name": "Questions order",
     "description": "As a potential trial participant\nI want initial questions presented to me in a logical order\nSo that I am eased into the MultiTrial (MT) experience",
     "line": 3,
