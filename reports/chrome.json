@@ -1,15 +1,21 @@
 [
   {
-    "id": "BRIDGE---Welcome-Page",
-    "name": "BRIDGE - Welcome Page",
-    "description": "As a Product Owner\nI want to display a welcome page \nso that we inform clients of the process",
+    "id": "BRIDGE-Editor---Previewing-Workflow",
+    "name": "BRIDGE-Editor - Previewing Workflow",
+    "description": "As a Study Builder user\nI want to publish my enhanced trial\nso that patients can see the enhanced information",
     "line": 2,
     "keyword": "Feature",
-    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/BRIDGE_welcome.feature",
+    "tags": [
+      {
+        "name": "@studybuilder",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/BRIDGE_EditorPreview.feature",
     "elements": [
       {
-        "name": "Verify Welcome page & links",
-        "id": "BRIDGE---Welcome-Page;verify-welcome-page-&-links",
+        "name": "Previewing changes",
+        "id": "BRIDGE-Editor---Previewing-Workflow;previewing-changes",
         "line": 7,
         "keyword": "Scenario",
         "description": "",
@@ -20,7 +26,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1056003514
+              "duration": 1328150890
             },
             "match": {}
           },
@@ -30,27 +36,47 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 817890
+              "duration": 823037
             },
             "match": {}
           },
           {
-            "name": "I login into Bridge",
+            "name": "I make some changes to a trial",
             "line": 9,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 6401752248
+            },
+            "match": {}
+          },
+          {
+            "name": "I preview my changes",
+            "line": 10,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 1320424457
+            },
+            "match": {}
+          },
+          {
+            "name": "I publish the changes",
+            "line": 11,
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 3103464924
+              "duration": 830376743
             },
             "match": {}
           },
           {
-            "name": "I should see the Bridge welcome message",
-            "line": 10,
+            "name": "I should be able to see those changes publicly available",
+            "line": 12,
             "keyword": "Then ",
             "result": {
               "status": "passed",
-              "duration": 62793428
+              "duration": 1323684556
             },
             "match": {}
           },
@@ -59,16 +85,32 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 581843454
+              "duration": 592972712
             },
             "match": {}
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "BRIDGE-Editor---Previewing-Workflow",
+    "name": "BRIDGE-Editor - Previewing Workflow",
+    "description": "As a Study Builder user\nI want to publish my enhanced trial\nso that patients can see the enhanced information",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
       {
-        "name": "Verify Terms of use links",
-        "id": "BRIDGE---Welcome-Page;verify-terms-of-use-links",
-        "line": 12,
+        "name": "@studybuilder",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/BRIDGE_EditorPreviewWorkflow.feature",
+    "elements": [
+      {
+        "name": "Previewing changes",
+        "id": "BRIDGE-Editor---Previewing-Workflow;previewing-changes",
+        "line": 7,
         "keyword": "Scenario",
         "description": "",
         "type": "scenario",
@@ -78,47 +120,57 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1105691690
+              "duration": 1142057448
             },
             "match": {}
           },
           {
             "name": "I am a Bridge user",
-            "line": 13,
+            "line": 8,
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 65416
+              "duration": 61184
             },
             "match": {}
           },
           {
-            "name": "I login into Bridge",
-            "line": 14,
-            "keyword": "When ",
-            "result": {
-              "status": "passed",
-              "duration": 2157206143
-            },
-            "match": {}
-          },
-          {
-            "name": "I should see the Bridge welcome message",
-            "line": 15,
-            "keyword": "Then ",
-            "result": {
-              "status": "passed",
-              "duration": 59194704
-            },
-            "match": {}
-          },
-          {
-            "name": "I should be able to read the Bridge Terms of Use",
-            "line": 16,
+            "name": "I make some changes to a trial",
+            "line": 9,
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 570053867
+              "duration": 5624165830
+            },
+            "match": {}
+          },
+          {
+            "name": "I preview my changes",
+            "line": 10,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 1246439633
+            },
+            "match": {}
+          },
+          {
+            "name": "I publish the changes",
+            "line": 11,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 937515345
+            },
+            "match": {}
+          },
+          {
+            "name": "I should be able to see those changes publicly available",
+            "line": 12,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 1299857644
             },
             "match": {}
           },
@@ -127,7 +179,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 578665961
+              "duration": 688842742
             },
             "match": {}
           }
@@ -147,7 +199,7 @@
         "line": 1
       }
     ],
-    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/bridgeLegalRequirements.feature",
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/BRIDGE_LegalRequirements.feature",
     "elements": [
       {
         "name": "Read Terms of Use from Welcome page",
@@ -162,7 +214,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1094864703
+              "duration": 1137403330
             },
             "match": {}
           },
@@ -172,7 +224,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 63540
+              "duration": 99515
             },
             "match": {}
           },
@@ -182,7 +234,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 2132797123
+              "duration": 4731883651
             },
             "match": {}
           },
@@ -192,7 +244,7 @@
             "keyword": "Then ",
             "result": {
               "status": "passed",
-              "duration": 51006057
+              "duration": 57687521
             },
             "match": {}
           },
@@ -202,7 +254,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 550503463
+              "duration": 1053581257
             },
             "match": {}
           },
@@ -211,7 +263,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 581488738
+              "duration": 581755498
             },
             "match": {}
           }
@@ -220,8 +272,8 @@
     ]
   },
   {
-    "id": "Bridge-publish-workflow",
-    "name": "Bridge publish workflow",
+    "id": "BRIDGE-Editor-Publish-workflow",
+    "name": "BRIDGE-Editor Publish workflow",
     "description": "As a Study Builder user\nI want to publish my enhanced trial\nso that patients can see the enhanced information",
     "line": 2,
     "keyword": "Feature",
@@ -231,11 +283,11 @@
         "line": 1
       }
     ],
-    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/bridgePublishWorkflow.feature",
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/BRIDGE_PublishWorkflow.feature",
     "elements": [
       {
         "name": "Publish changes",
-        "id": "Bridge-publish-workflow;publish-changes",
+        "id": "BRIDGE-Editor-Publish-workflow;publish-changes",
         "line": 7,
         "keyword": "Scenario",
         "description": "",
@@ -246,7 +298,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1104127404
+              "duration": 1114666795
             },
             "match": {}
           },
@@ -256,7 +308,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 71945
+              "duration": 80751
             },
             "match": {}
           },
@@ -266,7 +318,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 5784267592
+              "duration": 6294246213
             },
             "match": {}
           },
@@ -276,7 +328,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 1751467354
+              "duration": 816760161
             },
             "match": {}
           },
@@ -286,7 +338,7 @@
             "keyword": "Then ",
             "result": {
               "status": "passed",
-              "duration": 1265885689
+              "duration": 1370666792
             },
             "match": {}
           },
@@ -295,7 +347,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 579695403
+              "duration": 586193893
             },
             "match": {}
           }
@@ -303,7 +355,7 @@
       },
       {
         "name": "Publish changes after previewing",
-        "id": "Bridge-publish-workflow;publish-changes-after-previewing",
+        "id": "BRIDGE-Editor-Publish-workflow;publish-changes-after-previewing",
         "line": 13,
         "keyword": "Scenario",
         "description": "",
@@ -314,7 +366,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1101664644
+              "duration": 1135088779
             },
             "match": {}
           },
@@ -324,7 +376,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 61470
+              "duration": 83912
             },
             "match": {}
           },
@@ -334,7 +386,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 5632674175
+              "duration": 6155077751
             },
             "match": {}
           },
@@ -344,7 +396,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 1010818828
+              "duration": 1192973568
             },
             "match": {}
           },
@@ -354,7 +406,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 1157461823
+              "duration": 823007618
             },
             "match": {}
           },
@@ -364,7 +416,7 @@
             "keyword": "Then ",
             "result": {
               "status": "passed",
-              "duration": 1265948328
+              "duration": 1363868096
             },
             "match": {}
           },
@@ -373,7 +425,143 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 578768117
+              "duration": 581265216
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BRIDGE---Welcome-Page",
+    "name": "BRIDGE - Welcome Page",
+    "description": "As a Product Owner\nI want to display a welcome page \nso that we inform clients of the process",
+    "line": 2,
+    "keyword": "Feature",
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/BRIDGE_welcome.feature",
+    "elements": [
+      {
+        "name": "Verify landing on Welcome page",
+        "id": "BRIDGE---Welcome-Page;verify-landing-on-welcome-page",
+        "line": 7,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1142137375
+            },
+            "match": {}
+          },
+          {
+            "name": "I am a Bridge user",
+            "line": 8,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 74337
+            },
+            "match": {}
+          },
+          {
+            "name": "I login into Bridge",
+            "line": 9,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 2591277843
+            },
+            "match": {}
+          },
+          {
+            "name": "I should see the Bridge welcome message",
+            "line": 10,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 53857546
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 570047244
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify Terms of use links",
+        "id": "BRIDGE---Welcome-Page;verify-terms-of-use-links",
+        "line": 12,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1112623511
+            },
+            "match": {}
+          },
+          {
+            "name": "I am a Bridge user",
+            "line": 13,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 101406
+            },
+            "match": {}
+          },
+          {
+            "name": "I login into Bridge",
+            "line": 14,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 2162865218
+            },
+            "match": {}
+          },
+          {
+            "name": "I should see the Bridge welcome message",
+            "line": 15,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 53348805
+            },
+            "match": {}
+          },
+          {
+            "name": "I should be able to read the Bridge Terms of Use",
+            "line": 16,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 1056574687
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 578922399
             },
             "match": {}
           }
@@ -412,7 +600,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1104621468
+              "duration": 1112300918
             },
             "match": {}
           },
@@ -422,7 +610,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 1255619755
+              "duration": 1212685209
             },
             "match": {}
           },
@@ -432,7 +620,7 @@
             "keyword": "And ",
             "result": {
               "status": "failed",
-              "duration": 3500320461,
+              "duration": 3504073915,
               "error_message": "Error: element (.qa-questionCard) still  visible after 2000ms\n    at Object.<anonymous> (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/commands/waitForVisible.js:56:19)\n    at Object.safeExecute (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/utils/safeExecute.js:19:24)\n    at Object.WebdriverIO.resolve (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/webdriverio.js:87:29)\n    at /Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/webdriverio.js:227:32\n    at _rejected (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:830:24)\n    at /Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:856:30\n    at Promise.when (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:1108:31)\n    at Promise.promise.promiseDispatch (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:774:41)\n    at /Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:590:44\n    at runSingle (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:123:13)"
             },
             "match": {}
@@ -501,7 +689,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 574415557
+              "duration": 588667188
             },
             "match": {}
           }
@@ -520,7 +708,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1112179192
+              "duration": 1113358299
             },
             "match": {}
           },
@@ -530,7 +718,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 1615326809
+              "duration": 1203850021
             },
             "match": {}
           },
@@ -540,7 +728,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 4786645807
+              "duration": 4767916676
             },
             "match": {}
           },
@@ -570,7 +758,7 @@
             ],
             "result": {
               "status": "passed",
-              "duration": 14156398444
+              "duration": 14139816073
             },
             "match": {}
           },
@@ -580,7 +768,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 1436428184
+              "duration": 1471566922
             },
             "match": {}
           },
@@ -590,7 +778,7 @@
             "keyword": "Then ",
             "result": {
               "status": "passed",
-              "duration": 46958985
+              "duration": 55719846
             },
             "match": {}
           },
@@ -614,7 +802,7 @@
             ],
             "result": {
               "status": "passed",
-              "duration": 177277631
+              "duration": 188677939
             },
             "match": {}
           },
@@ -623,7 +811,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 578542348
+              "duration": 576849986
             },
             "match": {}
           }
@@ -662,7 +850,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1098651796
+              "duration": 1137368980
             },
             "match": {}
           },
@@ -672,7 +860,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 1143669029
+              "duration": 1305800247
             },
             "match": {}
           },
@@ -682,7 +870,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 6200978158
+              "duration": 6247320164
             },
             "match": {}
           },
@@ -692,7 +880,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 3471957183
+              "duration": 3454169463
             },
             "match": {}
           },
@@ -702,7 +890,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 1867278389
+              "duration": 1810371764
             },
             "match": {}
           },
@@ -712,7 +900,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 6880784628
+              "duration": 6910638488
             },
             "match": {}
           },
@@ -722,7 +910,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 2268180355
+              "duration": 2064948774
             },
             "match": {}
           },
@@ -732,7 +920,7 @@
             "keyword": "Then ",
             "result": {
               "status": "passed",
-              "duration": 33717783
+              "duration": 33394248
             },
             "match": {}
           },
@@ -742,7 +930,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 455900433
+              "duration": 458614674
             },
             "match": {}
           },
@@ -751,7 +939,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 580976495
+              "duration": 580381484
             },
             "match": {}
           }
@@ -770,7 +958,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1096958154
+              "duration": 1141391544
             },
             "match": {}
           },
@@ -780,7 +968,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 1336264639
+              "duration": 1289645618
             },
             "match": {}
           },
@@ -803,9 +991,8 @@
               }
             ],
             "result": {
-              "status": "failed",
-              "duration": 5902032559,
-              "error_message": "undefined: element (.qa-questionCard) still  visible after 2000ms\n    at isVisible(\".qa-questionCard\") - staleElementRetry.js:7:27\n    at elementIdDisplayed(\"0\") - isVisible.js:56:5"
+              "status": "passed",
+              "duration": 21608640828
             },
             "match": {}
           },
@@ -814,7 +1001,8 @@
             "line": 23,
             "keyword": "And ",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1951704679
             },
             "match": {}
           },
@@ -823,7 +1011,9 @@
             "line": 24,
             "keyword": "When ",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "duration": 10367912486,
+              "error_message": "undefined: element (.qa-resultsList) still  visible after 10000ms\n    at isVisible(\".qa-resultsList\") - waitForVisible.js:37:21"
             },
             "match": {}
           },
@@ -841,7 +1031,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1212165974
+              "duration": 584699530
             },
             "match": {}
           }
@@ -850,8 +1040,256 @@
     ]
   },
   {
-    "id": "QA-flow-tracking",
-    "name": "QA flow tracking",
+    "id": "MATCHR_Trial-search",
+    "name": "MATCHR_Trial search",
+    "description": "As a potential trial participant\nI want to be asked questions and shown results based on what type of diabetes trials I have said I am interested in\nSo that the results are meaningful and useful to me\n\nThe scenario's expectations are based on the results given by the search_trials tool\n(see https://github.com/trialreach/augmented-triality/tree/master/scripts/search_trials).\nThe tool does NOT consider the complete annotation process so the provided list of trials has to be manually filtered\nbased on this list: https://github.com/trialreach/annotation-tool/blob/master/metadata/diagnostic-areas.csv\n\nExpectations are expressed using real data. This because at the moment QBMS is not configured to consume different\ndata at startup time. The downside of this approach is that these tests may fails with a release of QBMS that include\nnew data (trials annotations or trial sites locations).\nOnce QBMS will be able to consume fake trials location and annotations, it's strongly recommended to move to write\nexpectation against fixtures.\n\nThe search_trials tools requires the coordinates of the point to search from. Geolocation lookup has been done using\nthe same service used by MT (i.e. Google AutocompleteService). The quickest way to lookup a location coordinates is\nto type a location in MT and inspect the requests to QBMS RankMatches endpoint to spot the coordinates associated\nwith the provided location.",
+    "line": 3,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@flaky",
+        "line": 1
+      },
+      {
+        "name": "@multitrial",
+        "line": 2
+      }
+    ],
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/MATCH_DiabetesTrialSearch.feature",
+    "elements": [
+      {
+        "name": "Search diabetes trial given one patient condition",
+        "id": "MATCHR_Trial-search;search-diabetes-trial-given-one-patient-condition",
+        "line": 24,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1140365618
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on the search page",
+            "line": 25,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1201414666
+            },
+            "match": {}
+          },
+          {
+            "name": "I select Gestational diabetes [Other types of diabetes]",
+            "line": 26,
+            "keyword": "And ",
+            "result": {
+              "status": "failed",
+              "duration": 3500688453,
+              "error_message": "Error: element (.qa-questionCard) still  visible after 2000ms\n    at Object.<anonymous> (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/commands/waitForVisible.js:56:19)\n    at Object.safeExecute (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/utils/safeExecute.js:19:24)\n    at Object.WebdriverIO.resolve (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/webdriverio.js:87:29)\n    at /Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/lib/webdriverio.js:227:32\n    at _rejected (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:830:24)\n    at /Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:856:30\n    at Promise.when (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:1108:31)\n    at Promise.promise.promiseDispatch (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:774:41)\n    at /Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:590:44\n    at runSingle (/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/node_modules/webdriverio/node_modules/q/q.js:123:13)"
+            },
+            "match": {}
+          },
+          {
+            "name": "I'm interested in trials near Houston, TX, United States",
+            "line": 27,
+            "keyword": "And ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "name": "I provide a distance of 100 miles",
+            "line": 28,
+            "keyword": "And ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "name": "I get redirected to the results page",
+            "line": 29,
+            "keyword": "When ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "name": "I should see a trials list",
+            "line": 30,
+            "keyword": "Then ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "name": "the trials should involve at least one of: Gestational diabetes [Other types of diabetes]",
+            "line": 31,
+            "keyword": "And ",
+            "rows": [
+              {
+                "cells": [
+                  "conditions",
+                  "trials"
+                ]
+              },
+              {
+                "cells": [
+                  "Gestational diabetes [Other types of diabetes]",
+                  "NCT01818557"
+                ]
+              }
+            ],
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 578505232
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Search diabetes trial given multiple patient conditions",
+        "id": "MATCHR_Trial-search;search-diabetes-trial-given-multiple-patient-conditions",
+        "line": 35,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1106984567
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on the search page",
+            "line": 36,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1294721683
+            },
+            "match": {}
+          },
+          {
+            "name": "I select Type 1 diabetes, Diabetic foot ulcer [Diabetic complications]",
+            "line": 37,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 4814265728
+            },
+            "match": {}
+          },
+          {
+            "name": "I use the following answers to reach the results",
+            "line": 38,
+            "keyword": "And ",
+            "rows": [
+              {
+                "cells": [
+                  "question",
+                  "answer"
+                ]
+              },
+              {
+                "cells": [
+                  "Where are you looking for trials?",
+                  "New Orleans, LA, United States"
+                ]
+              },
+              {
+                "cells": [
+                  "How far would you travel?",
+                  "10"
+                ]
+              }
+            ],
+            "result": {
+              "status": "failed",
+              "duration": 5077301897,
+              "error_message": "undefined: element (.qa-questionCard) still  visible after 2000ms\n    at isVisible(\".qa-questionCard\") - waitForVisible.js:37:21"
+            },
+            "match": {}
+          },
+          {
+            "name": "I decide to view the results",
+            "line": 42,
+            "keyword": "When ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "name": "I should see a trials list",
+            "line": 43,
+            "keyword": "Then ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "name": "the trials should involve at least one of: Type 1 diabetes, Diabetic foot ulcer [Diabetic complications]",
+            "line": 44,
+            "keyword": "And ",
+            "rows": [
+              {
+                "cells": [
+                  "conditions",
+                  "trials"
+                ]
+              },
+              {
+                "cells": [
+                  "Type 1 diabetes, Diabetic foot ulcer [Diabetic complications]",
+                  "NCT02258373,NCT02383940,NCT02459899,NCT02268214"
+                ]
+              }
+            ],
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 579006905
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MATCH---flow-tracking",
+    "name": "MATCH - flow tracking",
     "description": "As a product manager\nI want to track users' journeys\nSo that I can check for any issues and make assessments of where the biggest impact optimisations can be made",
     "line": 3,
     "keyword": "Feature",
@@ -865,11 +1303,11 @@
         "line": 2
       }
     ],
-    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/qaFlowTracking.feature",
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/MATCH_FlowTracking.feature",
     "elements": [
       {
         "name": "Track user QA flow",
-        "id": "QA-flow-tracking;track-user-qa-flow",
+        "id": "MATCH---flow-tracking;track-user-qa-flow",
         "line": 8,
         "keyword": "Scenario",
         "description": "",
@@ -880,7 +1318,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1196775401
+              "duration": 1108029473
             },
             "match": {}
           },
@@ -890,7 +1328,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 242396
+              "duration": 126878
             },
             "match": {}
           },
@@ -944,7 +1382,7 @@
             ],
             "result": {
               "status": "passed",
-              "duration": 23002137934
+              "duration": 23251447741
             },
             "match": {}
           },
@@ -954,7 +1392,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 158611
+              "duration": 164354
             },
             "match": {}
           },
@@ -1022,7 +1460,7 @@
             ],
             "result": {
               "status": "passed",
-              "duration": 84030279
+              "duration": 98205441
             },
             "match": {}
           },
@@ -1031,7 +1469,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 580092898
+              "duration": 576057674
             },
             "match": {}
           }
@@ -1040,8 +1478,8 @@
     ]
   },
   {
-    "id": "Questions-order",
-    "name": "Questions order",
+    "id": "MATCH---MultiTrial",
+    "name": "MATCH - MultiTrial",
     "description": "As a potential trial participant\nI want initial questions presented to me in a logical order\nSo that I am eased into the MultiTrial (MT) experience",
     "line": 3,
     "keyword": "Feature",
@@ -1055,11 +1493,11 @@
         "line": 2
       }
     ],
-    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/questionsOrder.feature",
+    "uri": "/Users/colinmoore-hill/Desktop/TrialReach/gargantua/acceptance_tests_cmh/features/MATCH_Multi_questionsOrder.feature",
     "elements": [
       {
         "name": "When entering MultiTrial with the location already entered",
-        "id": "Questions-order;when-entering-multitrial-with-the-location-already-entered",
+        "id": "MATCH---MultiTrial;when-entering-multitrial-with-the-location-already-entered",
         "line": 8,
         "keyword": "Scenario",
         "description": "",
@@ -1070,7 +1508,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1121612944
+              "duration": 1113926154
             },
             "match": {}
           },
@@ -1080,7 +1518,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 170584
+              "duration": 164609
             },
             "match": {}
           },
@@ -1090,7 +1528,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 1178729880
+              "duration": 1321595013
             },
             "match": {}
           },
@@ -1100,7 +1538,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 6204157376
+              "duration": 6268336414
             },
             "match": {}
           },
@@ -1109,9 +1547,8 @@
             "line": 12,
             "keyword": "Then ",
             "result": {
-              "status": "failed",
-              "duration": 2070071659,
-              "error_message": "undefined: element (.qa-questionCard) still  visible after 2000ms\n    at isVisible(\".qa-questionCard\") - waitForVisible.js:37:21"
+              "status": "passed",
+              "duration": 188741614
             },
             "match": {}
           },
@@ -1120,7 +1557,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 580935498
+              "duration": 572934801
             },
             "match": {}
           }
@@ -1128,7 +1565,7 @@
       },
       {
         "name": "When entering MultiTrial directly",
-        "id": "Questions-order;when-entering-multitrial-directly",
+        "id": "MATCH---MultiTrial;when-entering-multitrial-directly",
         "line": 14,
         "keyword": "Scenario",
         "description": "",
@@ -1139,7 +1576,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1130015155
+              "duration": 1128994680
             },
             "match": {}
           },
@@ -1149,7 +1586,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 2281006733
+              "duration": 1217530132
             },
             "match": {}
           },
@@ -1159,7 +1596,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 6171546933
+              "duration": 6223411366
             },
             "match": {}
           },
@@ -1169,7 +1606,7 @@
             "keyword": "Then ",
             "result": {
               "status": "failed",
-              "duration": 2087598593,
+              "duration": 2092056071,
               "error_message": "undefined: element (.qa-questionCard) still  visible after 2000ms\n    at isVisible(\".qa-questionCard\") - waitForVisible.js:37:21"
             },
             "match": {}
@@ -1179,7 +1616,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 577118811
+              "duration": 576840938
             },
             "match": {}
           }
@@ -1187,7 +1624,7 @@
       },
       {
         "name": "Back to back location and distance questions",
-        "id": "Questions-order;back-to-back-location-and-distance-questions",
+        "id": "MATCH---MultiTrial;back-to-back-location-and-distance-questions",
         "line": 19,
         "keyword": "Scenario",
         "description": "",
@@ -1198,7 +1635,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1088258544
+              "duration": 1133599211
             },
             "match": {}
           },
@@ -1208,7 +1645,7 @@
             "keyword": "Given ",
             "result": {
               "status": "passed",
-              "duration": 1429175458
+              "duration": 1562311762
             },
             "match": {}
           },
@@ -1218,7 +1655,7 @@
             "keyword": "And ",
             "result": {
               "status": "passed",
-              "duration": 6193283461
+              "duration": 6206062003
             },
             "match": {}
           },
@@ -1228,7 +1665,7 @@
             "keyword": "When ",
             "result": {
               "status": "passed",
-              "duration": 3445470949
+              "duration": 3729860634
             },
             "match": {}
           },
@@ -1238,7 +1675,7 @@
             "keyword": "Then ",
             "result": {
               "status": "failed",
-              "duration": 2062824121,
+              "duration": 2093034957,
               "error_message": "undefined: element (.qa-questionCard) still  visible after 2000ms\n    at isVisible(\".qa-questionCard\") - waitForVisible.js:37:21"
             },
             "match": {}
@@ -1248,7 +1685,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 577900879
+              "duration": 581238777
             },
             "match": {}
           }
